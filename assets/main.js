@@ -79,7 +79,8 @@ let createElementRow = (element) => {
           groups.value,
           check.checked
         );
-        newEditPerson.timeNecessary = hour + ":" + minute + ":" + second;
+        newEditPerson.timeNecessary =
+          "yangilangan " + hour + ":" + minute + ":" + second;
         parseData.splice(editId, 1, newEditPerson);
         parseData.pop();
         localStorage.setItem("key", JSON.stringify(parseData));
