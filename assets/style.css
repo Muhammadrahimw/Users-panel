@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* table ------------------------ */
+
+.container {
+  padding-top: 1.5em;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+}
+
+.searchDiv {
+  width: 73%;
+}
+
+.search {
+  width: 100%;
+  height: 60px;
+  border-top-left-radius: 0.4em;
+  border-bottom-left-radius: 0.4em;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  font-size: 1.25em;
+  padding-left: 0.5em;
+  outline: none;
+}
+
+.sort {
+  width: 15%;
+  padding: 0.6em;
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.select {
+  width: 100%;
+  height: 100%;
+  font-size: 1.25em;
+  border-radius: 0.5em;
+  background-color: white;
+  padding: 0 0.35em;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+}
+
+.add {
+  width: 12%;
+}
+
+.addBtn {
+  width: 100%;
+  height: 100%;
+  border: 1px solid green;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  font-size: 1.15em;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: green;
+  color: white;
+  transition: 0.2s;
+}
+
+table {
+  text-align: left;
+  margin-top: 1em;
+  width: 100%;
+  font-size: 1.25em;
+  border-left: none;
+  border-right: none;
+}
+
+thead {
+  height: 4em;
+}
+
+tbody tr {
+  height: 4em;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  border-right: none;
+  border-left: none;
+}
+
+tr:hover {
+  background-color: rgba(128, 128, 128, 0.103);
+}
+
+td,
+th {
+  padding-left: 1em;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.name {
+  width: 100%;
+  height: 3em;
+}
+
+#name {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  outline: none;
+  padding-left: 0.5em;
+  font-size: 1.25em;
+}
+
+.surname {
+  width: 100%;
+  height: 3em;
+}
+
+#surname {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  outline: none;
+  padding-left: 0.5em;
+  font-size: 1.25em;
+}
+
+.groups {
+  width: 100%;
+  height: 3em;
+}
+
+#groups {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  outline: none;
+  padding-left: 0.5em;
+  font-size: 1.25em;
+}
+
+.check {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.check p {
+  margin: 0;
+  font-size: 1.25em;
+  padding-left: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+#check {
+  scale: 1.5;
+}
+
+.edit {
+  width: 4em;
+  height: 2.5em;
+  background-color: blue;
+  color: white;
+  font-size: 1em;
+  border-radius: 0.5em;
+  border: none;
+  padding-bottom: 3px;
+}
+
+.delete {
+  width: 5.5em;
+  height: 2.5em;
+  background-color: red;
+  color: white;
+  font-size: 1em;
+  border-radius: 0.5em;
+  border: none;
+  padding-bottom: 3px;
+}
+
+tbody p {
+  font-size: 0.75em;
+}
